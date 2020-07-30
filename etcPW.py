@@ -1,4 +1,4 @@
-mport json
+import json
 
 def read():
     text = open("/etc/passwd").read()
