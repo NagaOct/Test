@@ -2,7 +2,8 @@ import json
 from collections import OrderedDict
 
 def read():
-    text = open("/etc/passwd").read()
+    #text = open("/etc/passwd").read()
+    text = open("dummy.txt").read()
     return text
             
 s1 = read().split("\n")
